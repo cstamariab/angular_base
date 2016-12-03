@@ -19,6 +19,7 @@ angular.module('myApp.services', []).
         return countries;
       },
       getPhotos : function(){
+        // probando services
         return $http.get('https://jsonplaceholder.typicode.com/photos');
       }
     }
